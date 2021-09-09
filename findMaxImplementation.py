@@ -1,5 +1,5 @@
 def findMax(x,y,z):#Finding the maximum of three numbers
-  if(x>=y and y>=z):
+  if(x>=y and y>=z): #Usage of the comparison operator called >=
     return x
   elif(y>=x and x>=z):
     return y
