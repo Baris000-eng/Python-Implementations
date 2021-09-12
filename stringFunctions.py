@@ -1,6 +1,8 @@
 string= "Hello, how are you"
 print(string.isupper())
 print(string.islower())
+print(string.toupper())
+print(string.tolower())
 length= len(string)
 print(length)
 print(string[1])
