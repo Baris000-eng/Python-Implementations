@@ -30,10 +30,12 @@ while True:
     print("Choices are same ! ")
     continue
   if(user1Count>user2Count and user1Count==winNum):
+   print("User1 has won ! ")
    print("The final score is User1: "+str(winNum)+" and User2: "+str(user2Count)+"")
    break
   if(user2Count>user1Count and user2Count==winNum):
    print("The final score is User2: "+str(winNum)+" and User1: "+str(user1Count)+"")
+   print("User2 has won ! ")
    break
  
  #ROCK, PAPER, SCISSORS GAME IN PYTHON
