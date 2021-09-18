@@ -1,5 +1,5 @@
 numbers= [2,3,4,5,5,5,5,5,3,3,3,3,4,4,9,9,10,10,10,10,1]
-threeCounter=0 ; twoCounter=0 ; fiveCounter=0; fourCounter=0; nineCounter=0; tenCounter=0; oneCounter=0
+threeCounter=0; twoCounter=0; fiveCounter=0; fourCounter=0; nineCounter=0; tenCounter=0; oneCounter=0
 
 
 length=len(numbers)
