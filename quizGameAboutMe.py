@@ -9,7 +9,7 @@ answer= input("Do you want to play? (Yes/No): ")
 if(answer.lower()=="yes"):
   print("The first question is coming...")
   time.sleep(2)
-  firstAns= input("What is my favorite food?: ")
+  firstAns= input("1-) What is my favorite food?: ")
   if(firstAns.lower()=="pizza"):
     print("Correct! ")
     trueAnswerNum+=1
@@ -18,7 +18,7 @@ if(answer.lower()=="yes"):
     falseAnswerNum+=1
   print("The second question is coming...")
   time.sleep(2)
-  secondAns= input("What is the Turkish football team I support? : ")
+  secondAns= input("2-) What is the Turkish football team I support? : ")
   if(secondAns.lower()=="fenerbahçe"):
     print("Correct! ")
     trueAnswerNum+=1
@@ -27,7 +27,7 @@ if(answer.lower()=="yes"):
     falseAnswerNum+=1
   print("The third question is coming...")
   time.sleep(2)
-  thirdAns= input("How old am I ?: ")
+  thirdAns= input("3-) How old am I ?: ")
   if(int(thirdAns)==20):
      print("Correct! ")
      trueAnswerNum+=1
