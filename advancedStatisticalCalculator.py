@@ -1,5 +1,7 @@
 import math
 import time
+from random import seed
+from random import randint
 #EXTENSIVE STATISTICAL CALCULATOR IN PYTHON
 def findMaxInArray(arr):
   max= arr[0]
@@ -23,6 +25,7 @@ for i in range(int(inp)):
   ls.append(int(statPut))
   print()
 
+upperBoundSleep= input("Please input the upper bound of the sleeping time of the program: ")
 def countNums(arr):
   counter=0
   l= len(arr)
@@ -33,15 +36,15 @@ def countNums(arr):
 
 print("****Welcome to The Advanced Statistical Calculator Program******")
 print()
-time.sleep(5)
+time.sleep(randint(0,int(upperBoundSleep)))
 print("Program loading ...")
-time.sleep(5)
+time.sleep(randint(0,int(upperBoundSleep)))
 print()
 print("...")
 print()
-time.sleep(2)
+time.sleep(randint(0,int(upperBoundSleep)))
 print("...")
-time.sleep(1)
+time.sleep(randint(0,int(upperBoundSleep)))
 print()
 p= input("Please enter a number: ")
 print()
