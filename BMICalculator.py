@@ -1,11 +1,22 @@
+import time 
+
 lower_normal_bound=0
 upper_normal_bound=0
 
 
 while True:
  print("Welcome to the Body Mass Index Calculator ! ")
- weight= input("Please enter your weight in kg: ")
- if(int(weight)<=0):
+ choice= input("Please enter yes to start, no to stop: ")
+ if(choice.lower()=="no"):
+   break
+ else:
+   time.sleep(4)
+   print("Loading ...")
+   time.sleep(4)
+   print("Loading continues ...")
+   print("...")
+   weight= input("Please enter your weight in kg: ")
+if(int(weight)<=0):
    print("Invalid weight ! ")
    break
  height= input("Please enter your height in cm: ")

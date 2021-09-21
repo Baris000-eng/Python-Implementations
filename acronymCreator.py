@@ -1,6 +1,3 @@
-
-
-
 while True:
  inputText= input("Please enter a text of \nwhich the acronym will be created: ")
 
