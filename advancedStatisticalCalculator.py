@@ -135,8 +135,9 @@ elif(int(p)==9):
 elif(int(p)==10):
   total= countNums(ls)
   print("There are "+str(total)+" elements in the ls array in total. ")
+elif(int(p)==-1):
+  print("Program ends!")
 
-  
 
 
 
