@@ -14,6 +14,9 @@ elif(operatorType=='-'):#Subtraction case
 elif(operatorType=='*' or operatorType=='x'):#Multiplication case
   print(number1*number2)
 elif(operatorType=='/' or operatorType==':'): #Division case
-  print(number1/number2)
+  if(number2!=0):
+    print(number1/number2)
+  else:
+    raise Exception("Invalid division.")
 else:
   print("Invalid operator type.") #Invalid cases
