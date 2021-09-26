@@ -1,4 +1,4 @@
-#Recursive Multiplication Program implemented in Python
+#Recursive and NonRecursive Multiplication Program implemented in Python
 
 def recursiveMultiplication(n1,n2):
   if(n1<0 and n2<0): 
