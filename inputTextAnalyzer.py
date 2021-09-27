@@ -29,11 +29,10 @@ for k in inputtedStr:
 
 print("The words in the inputted string are: ")
 wordCounter= 0
-wordsInInputtedStr= inputtedStr.split(" ")
+wordsInInputtedStr= inputtedStr.split(' ')
 for i in range(0,len(wordsInInputtedStr)):
- if wordsInInputtedStr[i].isalpha():
-  print(wordsInInputtedStr[i])
- wordCounter=wordCounter+1
+        print(wordsInInputtedStr[i])
+        wordCounter=wordCounter+1
 
 print()
 
@@ -45,12 +44,15 @@ for l in range(0,len(sentencesInInputtedStr)):
   print(sentencesInInputtedStr[l])
 
 
+print(sentencesInInputtedStr[1])
+
+
 
 
 upperCaseCount=0
 for x in inputtedStr:
   if x.isupper():
-    print("The uppercase letters are: "+x)
+    print("The uppercase letter"+str(upperCaseCount)+" is: "+x)
     upperCaseCount=upperCaseCount+1
 
 print()
@@ -66,8 +68,8 @@ print()
 digitCount=0
 for k in inputtedStr:
   if k.isdigit():
-    print("The digits in the inputted string is: "+k)
     digitCount=digitCount+1
+    print("The digit "+str(digitCount)+" in the inputted string is: "+k)
 
 
 
