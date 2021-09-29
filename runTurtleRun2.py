@@ -25,22 +25,29 @@ def findMaxTime(a2,b2,c2,d2):
 
 
 
-
+print("****Welcome to the Turtle Runner****")
+time.sleep(2)
+print("Run loading ...")
+time.sleep(2)
+print("...")
+time.sleep(2)
+print("The distances which turtles take will be all same !")
+print()
 starting_time = time.time()#gets the starting time 
 t = turtle.Turtle()
+r= 50
 
-  
-r = 50
-t.circle(r)
 
-t.goto(0,-45)
-t.goto(0,15)
-
+for i in range(10):
+  t.goto(0,-15*random.randrange(-1,3))
+  t.goto(0,-15*random.randrange(-1,3))
+  t.goto(0,-15*random.randrange(-1,3))
+  t.goto(0,-15*random.randrange(-1,3))
 
 sec1= time.time()-starting_time
-print("The runtime of the turtle-1 is: "+str(sec1)+" seconds")#Here, time.time() call gives the end time. 
+print("The runtime of the turtle-1 is: "+str("{:.5f}".format(sec1))+" seconds")#Here, time.time() call gives the end time. 
 
-
+print()
 
 starting_time2=time.time()
 x= turtle.Turtle()
@@ -48,16 +55,16 @@ x.goto(0,0)
 r= r+15
 x.circle(r)
 sec2= time.time()-starting_time2
-print("The runtime of turtle-2 is: "+str(sec2)+" seconds")
-
+print("The runtime of turtle-2 is: "+str("{:.5f}".format(sec2))+" seconds")
+print()
 starting_time3=time.time()
 y= turtle.Turtle()
 y.goto(0,-15)
 r= r+15
 y.circle(r)
 sec3= time.time()-starting_time3
-print("The runtime of turtle-3 is: "+str(sec3)+" seconds")
-
+print("The runtime of turtle-3 is: "+str("{:.5f}".format(sec3))+" seconds")
+print()
  
 
 starting_time4=time.time()
@@ -66,8 +73,8 @@ z.goto(0,-30)
 r= r+15
 z.circle(r)
 sec4= time.time()-starting_time4
-print("The runtime of turtle-4 is: "+str(sec4)+" seconds")
-
+print("The runtime of turtle-4 is: "+str("{:.5f}".format(sec4))+" seconds")
+print()
 min_sec= findMinTime(sec1,sec2,sec3,sec4)
 
 if min_sec==sec1:
@@ -80,12 +87,12 @@ else:
   print("Congratulations turtle-4, you won the race! ")
 
 max_sec= findMaxTime(sec1,sec2,sec3,sec4)
-
+print()
 if max_sec==sec1:
-  print("Turtle-1, you are in the last place in the turtle race! ")
+  print("Turtle-1, you are the slowest!")
 elif max_sec==sec2:
-  print("Turtle-2, you are in the last place in the turtle race! ")
+  print("Turtle-2, you are the slowest!")
 elif max_sec==sec3:
-  print("Turtle-3, you are in the last place in the turtle race! ")
+  print("Turtle-3, you are the slowest!")
 else:
-  print(" Turtle-4, you are in the last place in the turtle race! ")
+  print(" Turtle-4, you are the slowest!")
