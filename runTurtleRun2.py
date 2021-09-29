@@ -1,4 +1,4 @@
-#RACING THE TURTLES IN PYTHON, example usages of time.time() function of time module, the Turtle() function of the turtle module are displayed.
+#RACING THE TURTLES IN PYTHON, example usages of time.time() function of time module, the Turtle() function of the turtle module, and the randrange(a,b) function of the random module are displayed.
 import turtle
 import random
 import time 
