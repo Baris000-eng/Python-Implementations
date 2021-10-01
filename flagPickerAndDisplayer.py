@@ -125,8 +125,8 @@ elif int(inp)==4:
   tur.fillcolor('white')
   tur.begin_fill()
 for v in range(0,5):
-      tur.forward(50)# moving turtle 100 units forward
-      tur.right(144)# rotating turtle 144 degree to the right
+      tur.forward(50)# moving turtle 
+      tur.right(144)# rotating turtle 
 tur.end_fill()
 
 
