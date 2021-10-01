@@ -1,13 +1,6 @@
 import turtle
-import time 
 
 
-
-print("*****Welcome to the Farm Creation Program****")
-time.sleep(2)
-print("...")
-print("...")
->>>>>>> origin/master:farmCreationUsingTurtleModule.py
 t = turtle.Turtle()
 turtle.title("My Little Farm")
 t.fillcolor('red')
@@ -126,4 +119,4 @@ t.goto(-55,-167)
 t.goto(-75,-167)
 t.goto(-75,-160)
 t.end_fill()
-print("****End of the farm creation program"****")
+
