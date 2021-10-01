@@ -7,6 +7,7 @@ authors = ["Baris000eng <<>>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 bs4 = "^0.0.1"
+playsound = "^1.3.0"
 
 [tool.poetry.dev-dependencies]
 
