@@ -6,6 +6,7 @@ print("*****Welcome to the Farm Creation Program****")
 time.sleep(2)
 print("...")
 print("...")
+
 t = turtle.Turtle()
 turtle.title("My Little Farm")
 t.fillcolor('red')
