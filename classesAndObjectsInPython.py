@@ -2,6 +2,7 @@ from Student import Student
   
 student1= Student("Mike","Economics","3.02",True)
 student2= Student("Mikasa","Mechanical Engineering","3.9",False)
+print()
 print(student1.name)
 print(student1.major)
 print(student1.GPA)
