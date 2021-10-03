@@ -6,7 +6,7 @@ if(is_Male==True and is_Wearing_Glasses==True):
   print("Mike is a male who wears glasses.")
 elif(is_Male==False and is_Wearing_Glasses==True):
   print("Mike is not a male and he is wearing glasses")
-elif(is_Male==true and is_Wearing_Glasses==False):
+elif(is_Male==True and is_Wearing_Glasses==False):
   print("Mike is a male who does not wear glasses")
 else: 
   print("Mike is not a male and he is not wearing glasses")
