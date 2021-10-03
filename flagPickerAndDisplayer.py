@@ -99,7 +99,7 @@ elif int(inp)==3:
   tur.goto(0,-200)
   tur.hideturtle()
 elif int(inp)==4:
-  w.title("Türk Bayrağı! ")      
+  w.title("As bayrakları! ")      
   tur.fillcolor('red')
   tur.begin_fill()
   tur.goto(0,-400)
