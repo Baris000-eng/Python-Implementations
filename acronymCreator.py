@@ -1,4 +1,4 @@
-while True:
+swhile True:
  inputText= input("Please enter a text of \nwhich the acronym will be created: ")
 
  if(inputText==""):
