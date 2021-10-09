@@ -1,5 +1,10 @@
 #Custom Math Functions implemented by me!
-
+def customLogBase2OfANumber(k):
+  divCount=0
+  while k>1:
+    k= k/2
+    divCount=divCount+1
+  return divCount
 
 def customAbsoluteValue(n):
   if n<0:
