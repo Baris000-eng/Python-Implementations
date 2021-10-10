@@ -1,4 +1,7 @@
 #Custom Math Functions implemented by me!
+def customCeilFunction(j):
+  int_part= j//1
+  return int_part+1
 def customLogBase2OfANumber(k):
   divCount=0
   while k>1:
