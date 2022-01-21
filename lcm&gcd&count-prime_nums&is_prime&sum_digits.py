@@ -70,6 +70,29 @@ def count_prime_nums(a,b):#A function that counts the prime numbers from a to b,
   return prime_count
 
 
+def findMinElementIndex(arr): #A function that finds the index of the minimum element
+    minElm= arr[0]
+    minInd=0
+    l= len(arr)
+    for j in range(0,l):
+        if arr[j]<minElm:
+            minElm=arr[j]
+            minInd=j
+    return minInd
+
+def findMaxElementIndex(arr): #A function that finds the index of the maximum element
+    maxElm= arr[0]
+    maxInd=0
+    l= len(arr)
+    for j in range(0,l):
+        if arr[j]>maxElm:
+            maxElm=arr[j]
+            maxInd=j
+    return maxInd
+
+     
+
+
 
 
 
