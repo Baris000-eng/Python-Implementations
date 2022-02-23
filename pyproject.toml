@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "repl_python3_beta_Python-Impl-2"
+name = "repl_python3_Python-Impl-2"
 version = "0.1.0"
 description = ""
 authors = ["Baris000eng <<>>"]
@@ -7,11 +7,6 @@ authors = ["Baris000eng <<>>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 bs4 = "^0.0.1"
-playsound = "^1.3.0"
-PyMySQL = "^1.0.2"
-webscraping = "^1.7.1"
-pyquery = "^1.4.3"
-pandas = "^1.3.3"
 
 [tool.poetry.dev-dependencies]
 
