@@ -7,7 +7,6 @@ import random
 tur= turtle.Turtle()
 w = turtle.Screen()
 totalWaitingTime=0
-
 inp= input("Please enter your flag choice: ")
 if int(inp)==1 or int(inp)==4:
  print("You choosed "+str(inp)+"th flag. ")
@@ -22,6 +21,10 @@ print(".....")
 time.sleep(random.randint(1,10))
 print("....")
 time.sleep(random.randint(1,10))
+
+
+if(int(inp)<0 or int(inp)>4):
+  print("Invalid choice! No flag displayed")
 
 if int(inp)==1:
   w.title("Germany Flag!")
@@ -124,8 +127,8 @@ elif int(inp)==4:
   tur.goto(110,-50)
   tur.fillcolor('white')
   tur.begin_fill()
-for v in range(0,5):
-      tur.forward(50)# moving turtle 100 units forward
-      tur.right(144)# rotating turtle 144 degree to the right
-tur.end_fill()
+  for v in range(0,5):
+        tur.forward(50)# moving turtle 100 units forward
+        tur.right(144)# rotating turtle 144 degree to the right
+  tur.end_fill()
  
