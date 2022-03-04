@@ -8,5 +8,5 @@ Includes
 
 2-) My free-time projects done with python
 
-3-) My little homeworks & exercises which are done with python
+3-) The exercises I have done while learning python
 
