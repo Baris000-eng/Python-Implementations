@@ -16,7 +16,10 @@ def weather(city):
     print(information)
     print(weather+"°C") 
 
-print("Enter the city name: ")
-city=input()
-city=city+" weather"
-weather(city)
+while(True):
+  print("Enter the city name: ")
+  city=input()
+  city=city+"weather"
+  weather(city)
+  if(city.lower()=="null"):
+    break
