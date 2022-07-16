@@ -44,12 +44,12 @@ def lcm(num1,num2):#A function that finds the least common multiple of the two i
 
 def is_prime(number):#a function that finds whether a number is prime
     b=0
-    halfNum=0;
+    halfNum=0
     remainder=0
     isPrimeNumber=True
     halfNum=number//2
     if(number==0 or number==1):
-        return  not isPrimeNumber;
+        return  not isPrimeNumber
     else:
       for b in range(2,halfNum+1):
             remainder=number%b;
