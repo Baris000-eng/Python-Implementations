@@ -1,21 +1,21 @@
 def binary_search(arr, lowInd, highInd, x):
-    arr.sort()
-    if lowInd>highInd:
-      temp=lowInd
+    arr.sort()           # arrayi sırala
+    if lowInd>highInd: # küçük indeks (lowInd) büyük indeksten (highInd) büyük olarak yazılmışsa
+      temp=lowInd #yer değiştir.
       lowInd=highInd
       highInd=temp
 
     if highInd >= lowInd:
-        middle = (highInd + lowInd) // 2
-        if arr[middle] == x:
-            return middle
-        elif arr[middle] > x:
-            return binary_search(arr, lowInd, middle - 1, x)
-        else:
-            return binary_search(arr, middle + 1, highInd, x)
+        middle = (highInd + lowInd) // 2 #ortadaki elemanın indeksi
+        if arr[middle] == x: #ortadaki elemanla bulunması hedeflenen eleman eşitse
+            return middle #ortadaki elemanın indeksini dön
+        elif arr[middle] > x: #bulunması hedeflenen eleman ortadaki elemandan küçükse
+            return binary_search(arr, lowInd, middle - 1, x) #veri yapısının sol yarısında tekrar binary search yap.
+        else: # bulunması hedeflenen eleman ortadaki elemandan büyükse
+            return binary_search(arr, middle + 1, highInd, x) #veri yapısının sağ yarısında tekrar binary search yap.
  
-    else:
-        return -1
+    else: #bulmayı hedeflediğimiz elemanı veri yapımızda bulamadıysak 
+        return -1 #-1 dön.
 
 def binary_search2(arr,low,high,x):
   arr.sort()
