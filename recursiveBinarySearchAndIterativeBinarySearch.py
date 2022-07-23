@@ -6,7 +6,7 @@ def binary_search(arr, lowInd, highInd, x):
       highInd=temp
 
     if highInd >= lowInd:
-        middle = (highInd + lowInd) // 2 #ortadaki elemanın indeksi
+        middle = (highInd + lowInd) # 2 #ortadaki elemanın indeksi
         if arr[middle] == x: #ortadaki elemanla bulunması hedeflenen eleman eşitse
             return middle #ortadaki elemanın indeksini dön
         elif arr[middle] > x: #bulunması hedeflenen eleman ortadaki elemandan küçükse
